@@ -31,6 +31,16 @@ sections:
 #          position: center
 #          parallax: false
   - block: collection
+    id: talks
+    content:
+      title: Talks
+      filters:
+        folders:
+          - talks
+    design:
+      view: talks/talk-list
+      columns: '1'
+  - block: collection
     id: papers
     content:
       title: Featured Publications
